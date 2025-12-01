@@ -34,7 +34,7 @@ export const ThemeToggle = () => {
                 transition={{ duration: 0.3 }}
                 className="absolute"
             >
-                <Sun className="h-5 w-5" />
+                <Sun className="h-5 w-5 text-black" />
             </motion.div>
         </Button>
     );

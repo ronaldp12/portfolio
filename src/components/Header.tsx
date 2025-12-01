@@ -14,10 +14,10 @@ const navLinks = [
 ];
 
 const socialLinks = [
-    { href: "https://linkedin.com", icon: FaLinkedin, label: "LinkedIn" },
-    { href: "https://github.com", icon: FaGithub, label: "GitHub" },
-    { href: "mailto:ejemplo@email.com", icon: FaEnvelope, label: "Email" },
-    { href: "https://wa.me/1234567890", icon: FaWhatsapp, label: "WhatsApp" },
+    { href: "https://linkedin.com", icon: FaLinkedin, label: "LinkedIn", color: "#0077b5" },
+    { href: "https://github.com/ronaldp12", icon: FaGithub, label: "GitHub", color: "#333" },
+    { href: "mailto:patinoguevararonald@gmail.com", icon: FaEnvelope, label: "Email", color: "#ea4335" },
+    { href: "https://wa.me/3022892903", icon: FaWhatsapp, label: "WhatsApp", color: "#25d366" },
 ];
 
 export const Header = () => {
