@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { ContactForm } from "./ContactForm";
 
 const contactMethods = [
     {
@@ -91,6 +92,7 @@ export const Contact = () => {
 
                     {/* Contact Form */}
                     <div>
+                        <ContactForm />
                     </div>
                 </div>
             </div>
