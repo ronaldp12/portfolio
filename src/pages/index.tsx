@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Contact } from "../components/Contact";
 import { Experience } from "../components/Experience";
 import { Header } from "../components/Header";
@@ -14,6 +15,7 @@ const Index = () => {
                 <Skills />
                 <Contact />
             </main>
+            <Footer />
         </div>
     );
 };
