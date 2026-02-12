@@ -1,18 +1,11 @@
 import { Download, ArrowDown } from "lucide-react";
-import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { Button } from "./ui/button";
 import { motion } from "framer-motion";
-
-const socialLinks = [
-    { href: "https://linkedin.com", icon: FaLinkedin, label: "LinkedIn", color: "#0077b5" },
-    { href: "https://github.com/ronaldp12", icon: FaGithub, label: "GitHub", color: "#333" },
-    { href: "mailto:patinoguevararonald@gmail.com", icon: FaEnvelope, label: "Email", color: "#ea4335" },
-    { href: "https://wa.me/3022892903?text=Hola%20Ronald", icon: FaWhatsapp, label: "WhatsApp", color: "#25d366" },
-];
+import { socialLinks } from "@/data/socialLinks";
 
 export const Hero = () => {
     const scrollToProjects = () => {
-        const element = document.querySelector("#proyectos");
+        const element = document.querySelector("#proyectos"); 
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
         }
@@ -63,7 +56,7 @@ export const Hero = () => {
                             size="lg"
                             className="border-primary/50 hover:bg-primary/10 font-semibold px-8 rounded-full"
                         >
-                            <a href="/cv.pdf" download>
+                            <a href="/CV_Ronald_Patiño_Guevara.pdf" download>
                                 <Download className="mr-2 h-5 w-5" />
                                 Descargar CV
                             </a>

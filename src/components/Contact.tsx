@@ -7,7 +7,7 @@ const contactMethods = [
         icon: FaLinkedin,
         label: "LinkedIn",
         value: "Ronald Patiño",
-        href: "https://linkedin.com",
+        href: "https://www.linkedin.com/in/ronald-patiño-7b9980305",
         color: "#0077b5",
     },
     {

@@ -1,3 +1,5 @@
+import { IconType } from "react-icons/lib";
+
 export interface Experience {
     id: string;
     position: string;
@@ -30,4 +32,16 @@ export interface ContactFormData {
     email: string;
     subject: string;
     message: string;
+}
+
+export interface SocialLink {
+    href: string;
+    icon: IconType;
+    label: string;
+    color?: string;
+}
+
+export interface NavLink {
+    href: string;
+    label: string;
 }

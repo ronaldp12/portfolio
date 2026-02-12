@@ -1,21 +1,6 @@
 import { ArrowUp } from "lucide-react";
-import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
-
-const socialLinks = [
-    { href: "https://linkedin.com", icon: FaLinkedin, label: "LinkedIn" },
-    { href: "https://github.com/ronaldp12", icon: FaGithub, label: "GitHub" },
-    { href: "mailto:patinoguevararonald@gmail.com", icon: FaEnvelope, label: "Email" },
-    { href: "https://wa.me/573022892903", icon: FaWhatsapp, label: "WhatsApp" },
-];
-
-const navLinks = [
-    { href: "#inicio", label: "Inicio" },
-    { href: "#experiencia", label: "Experiencia" },
-    { href: "#habilidades", label: "Habilidades" },
-    { href: "#proyectos", label: "Proyectos" },
-    { href: "#contacto", label: "Contacto" },
-];
+import { socialLinks, navLinks } from "@/data/socialLinks";
 
 export const Footer = () => {
     const scrollToTop = () => {

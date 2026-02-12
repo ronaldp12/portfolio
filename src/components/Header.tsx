@@ -1,24 +1,9 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { ThemeToggle } from "./ThemeToggle";
 import { Button } from "./ui/button";
 import { motion, AnimatePresence } from "framer-motion";
-
-const navLinks = [
-    { href: "#inicio", label: "Inicio" },
-    { href: "#experiencia", label: "Experiencia" },
-    { href: "#habilidades", label: "Habilidades" },
-    { href: "#proyectos", label: "Proyectos" },
-    { href: "#contacto", label: "Contacto" },
-];
-
-const socialLinks = [
-    { href: "https://linkedin.com", icon: FaLinkedin, label: "LinkedIn", color: "#0077b5" },
-    { href: "https://github.com/ronaldp12", icon: FaGithub, label: "GitHub", color: "#333" },
-    { href: "mailto:patinoguevararonald@gmail.com", icon: FaEnvelope, label: "Email", color: "#ea4335" },
-    { href: "https://wa.me/3022892903?text=Hola%20Ronald", icon: FaWhatsapp, label: "WhatsApp", color: "#25d366" },
-];
+import { socialLinks, navLinks } from "@/data/socialLinks";
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
